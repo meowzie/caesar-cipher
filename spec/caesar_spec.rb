@@ -1,6 +1,8 @@
-#spec/caesar_spec.rb
+# frozen_string_literal: true
 
-require './lib/caesar-cipher.rb'
+# spec/caesar_spec.rb
+
+require './lib/caesar-cipher'
 
 describe Message do
   describe '#caesar_cipher' do
